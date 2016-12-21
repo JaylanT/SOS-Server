@@ -1,0 +1,19 @@
+{
+  "name": "sos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^3.6.1",
+    "firebase-admin": "^4.0.2",
+    "geofire": "^4.1.2",
+    "node-geocoder": "^3.15.1",
+    "request": "^2.78.0"
+  }
+}
