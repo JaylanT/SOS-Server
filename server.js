@@ -3,12 +3,12 @@ const admin = require('firebase-admin');
 const geofire = require('geofire');
 const NodeGeocoder = require('node-geocoder');
 
-const API_TOKEN = 'AAAAUh2siCc:APA91bFgs8I8iAclGXsMjf1h1KkltUGNGV1FyCtQxu3Pp504D2OTRwP_mJDEU4suei0LKDQPyoSx4pIvdOFsF5B9zsGe756E4LnqH0k-Q0kuPb-Ld3D16na8JpEMQA8AuFtZNlztqxO65Wdf_ef9bflm0sI69VGs6Q';
+const API_TOKEN = '';
 const MAX_RADIUS_KM = 1;
 
 admin.initializeApp({
-	credential: admin.credential.cert('sos-148-firebase-adminsdk-phayo-156e0d37d5.json'),
-	databaseURL: 'https://sos-148.firebaseio.com'
+	credential: admin.credential.cert(''),
+	databaseURL: ''
 });
 const ref = admin.database().ref();
 const geoFire = new geofire(admin.database().ref('geofire'));
